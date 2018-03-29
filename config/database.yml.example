@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: [username]
+  password: [password]
+
+
+development:
+  <<: *default
+  database: craigslist_development
+test:
+  <<: *default
+  database: craigslist_test
+production:
+  <<: *default
+  database: craigslist_production
