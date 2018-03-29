@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a lightweight e-commerce system, for free places ads for sale, allows user registration, add ad and CMS system to manage products and users.
 
-Things you may want to cover:
+# Starting work
 
-* Ruby version
+install ruby 2.3.1
+install bundle
+run comamnd 'bundle install'
+add and configure database.yml
+run 'rake db:create db:migrate db:seed'
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+and you can run server
